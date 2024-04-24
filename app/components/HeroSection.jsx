@@ -35,11 +35,13 @@ const HeroSection = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, iste? Nisi quo neque libero repudiandae excepturi unde vel quisquam. Eius in rem fugiat ipsum laboriosam fuga quod eligendi odio voluptatum?
             </p>
             <div>
-              <button className='px-6 py-3 w-full sm:rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
+              <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
                 Hire Me!
               </button>
-              <button className='px-1 py-1 w-full sm:rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                <div className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</div>
+              <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
+                <div className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Download CV
+                  </div>
               </button>
 
             </div>
@@ -51,7 +53,8 @@ const HeroSection = () => {
               alt="hero image"
               className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
               width={300}
-              height={300} />
+              height={300}
+              />
             </div>
           </div>
         </div>
