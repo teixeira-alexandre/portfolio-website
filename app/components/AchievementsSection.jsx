@@ -49,13 +49,13 @@ const AchievementsSection = () => {
                   className="text-white text-4xl font-bold"
                   configs={(_, index) => {
                     return {
-                    mass: 1,
-                    friction: 100,
-                    tensions: 140 * (index + 1),
+                      mass: 1,
+                      friction: 100,
+                      tensions: 140 * (index + 1),
                     };
                   }}
-                  />
-                  {achievementsList.postfix}
+                />
+                {achievementsList.postfix}
               </h2>
               <p className="text-[#ADB7BE] text-base">
                 {achievementsList.metric}
