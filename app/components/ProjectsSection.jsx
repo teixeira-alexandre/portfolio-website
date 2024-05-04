@@ -61,12 +61,12 @@ const projectData = [
   },
   {
     id: 6,
-    title: "Placeholder",
-    description: "Placeholder for future project.",
+    title: "Car Rent App",
+    description: "I'm making this Fullstack car renting app with React, NextJS and TypeScript.",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/teixeira-alexandre/car-hub/",
+    previewUrl: "https://alexandre-car-site.vercel.app",
   },
 ];
 
