@@ -37,10 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
-            iste? Nisi quo neque libero repudiandae excepturi unde vel quisquam.
-            Eius in rem fugiat ipsum laboriosam fuga quod eligendi odio
-            voluptatum?
+            My name is Alexandre, I&apos;m a 26yo front-end developer with one year of experience. I&apos;m passionate about creating beautiful and functional websites. I have experience with React, Next.js, and Tailwind CSS. I&apos;m always looking for new challenges and opportunities to learn and grow.
           </p>
           <div>
               <Link href="/#contact"
