@@ -25,8 +25,9 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
+                <li>Bachelor&apos;s degree in Law </li>
                 <li>Computer Science Degree</li>
-                <li>Web Development Bootcamp</li>
+                <li>Prometheus Tech Bootcamp</li>
             </ul>
         )
     },
