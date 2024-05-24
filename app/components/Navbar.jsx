@@ -31,9 +31,15 @@ const Navbar = () => {
           href={"/"}
           className="text-xl md:text-5xl text-[#ADB7BE] font-semibold flex items-center"
         >
-          Alexandre
+          Alexandre{" "}
           <span className="ml-2">
-            <Image src={ReactIcon} alt="React Icon" width={30} height={30} className="App-logo"/>
+            <Image
+              src={ReactIcon}
+              alt="React Icon"
+              width={30}
+              height={30}
+              className="App-logo"
+            />
           </span>
         </Link>
         <div className="mobile-menu block md:hidden absolute top- right-0">

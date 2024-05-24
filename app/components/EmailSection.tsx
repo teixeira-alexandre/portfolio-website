@@ -1,10 +1,9 @@
 "use client";
-import React from "react";
+import React, { FC } from "react";
 import GithubIcon from "../../public/images/github-image.svg";
 import LinkedInIcon from "../../public/images/linkedin-image.svg";
 import Link from "next/link";
 import Image from "next/image";
-import { FC } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "../../utils/send-email";
 
